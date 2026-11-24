@@ -16,7 +16,7 @@ namespace Market_tes
     public partial class FormMarket : Form
     {
         private ProductService productService = new ProductService();
-        private int selectedProductId = -1;
+        private int selectedProductId = -1; 
         public FormMarket()
         {
             InitializeComponent();

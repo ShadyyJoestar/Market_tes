@@ -67,7 +67,7 @@ namespace Market_tes.Services
                 cmd.Parameters.AddWithValue("@name", p.name);
                 cmd.Parameters.AddWithValue("@category", p.Category);
                 cmd.Parameters.AddWithValue("@price", p.Price);
-                cmd.Parameters.AddWithValue("@Stock", p.Price);
+                cmd.Parameters.AddWithValue("@Stock", p.stock);
                 cmd.Parameters.AddWithValue("@id", p.id);
 
                 cmd.ExecuteNonQuery();
